@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
@@ -14,13 +15,23 @@
             <img src="img/instagram-celular.png" alt="print do perfil do instagram">
         </div>
         <div class="instagram-continue">
-            <div class="group">
+            <div class="group" id="group-01">
                 <img src="img/instagram-logo.png" class="instagram-logo" alt="logo do instagram">
                 <div class="profile-photo">
                     <img src="img/perfil-instagram.jpg" alt="foto de perfil">
                 </div>
-                <a href="https://www.instagram.com/lali.sandrade/" class="instagram-login">Continue como lali.sandrade</a>
+                <a href="https://www.instagram.com/lali.sandrade/">
+                    <button class="instagram-login">Continue como lali.sandrade</button>
+                </a>
                 <a href="#" class="instagram-logout">Remover conta</a>
+            </div>
+            <div class="group" id="group-02">
+                <img src="img/instagram-logo.png" class="instagram-logo" alt="logo do instagram">
+                <form class="main-form" action="" method="">
+                    <input class="main-input" type="text" name="user" placeholder="Telefone, nome de usuário, ou email">
+                    <input class="main-input" type="password" name="password" placeholder="Senha">
+                    <input class="instagram-login" id="generic-login" type="submit" name="login" value="Entrar">
+                </form>
             </div>
             <div class="group">
                 <p class="not-account">Não é lali.sandrade?</p>
