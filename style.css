@@ -36,7 +36,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45%;
     margin: 1rem;
 }
 
@@ -142,12 +141,6 @@ body {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1024px) {
-    .instagram-wrapper {
-        width: 90%;
-    }
-}
-
 @media (max-width: 650px) {
     body {
         background-color: #ffffff;
@@ -162,7 +155,7 @@ body {
     }
 
     .instagram-continue {
-        width: 100%;
+        width: 360px;
     }
 
     .group {
